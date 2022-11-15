@@ -28,7 +28,7 @@ def home():
 
 @app.route("/about", methods=['POST'])
 def about():
-    return render_template('www.intellipaat.com')
+    return render_template('www.admin.com')
 
 
 @app.route("/addemp", methods=['POST'])
